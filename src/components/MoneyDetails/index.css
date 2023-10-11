@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.money-container {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 32px;
+  margin-top: 32px;
+  width: 100%;
+}
+@media scree and (min-width: 768px) {
+  .money-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 30%;
+    margin-right: 0px;
+  }
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+}
+.balance-card {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.income-card {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.expenses-card {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+.amount {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.money {
+  color: #475569;
+  font-size: 32px;
+  font-family: 'Roboto';
+}
+
+.text-container {
+  margin-left: 10px;
+}

@@ -1,0 +1,133 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+
+  justify-content: center;
+}
+
+.card-container {
+  width: 90%;
+
+  max-width: 550px;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 80%;
+    max-width: 1100px;
+  }
+}
+.top-head-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('https://res.cloudinary.com/do4qwwms8/image/upload/v1626263091/Money%20Manager/money-manager-header_rxlcrn.png');
+  background-size: cover;
+  height: 172px;
+  border-radius: 16px;
+  margin-top: 64px;
+}
+
+@media scree and (min-width: 768px) {
+  .top-head-container {
+    align-items: flex-start;
+    padding: 48px;
+  }
+}
+
+.name-heading {
+  font-size: 22px;
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 600;
+}
+.description {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 600;
+}
+.transaction-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.transaction-heading {
+  font-size: 22px;
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 600;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 424px;
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 32px;
+}
+.input-box {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: 1px solid #cbd5e1;
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #475569;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+.span {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #0b69ff;
+  font-weight: 600;
+}
+.history-container {
+  width: 100%;
+  min-height: 326px;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+  margin-top: 32px;
+}
+.history-details-container {
+  height: 100%;
+  border-radius: 8px;
+}
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.details-heading {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 600;
+}
+.ul-container {
+  list-style: none;
+}
